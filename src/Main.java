@@ -26,12 +26,10 @@ public class Main {
         System.out.println(name);
 
         int myNum;
-        myNum = 15;
         myNum = 20;
         System.out.println(myNum);
 
         final float dph = 0.23f; // vytvorili (zadefinovali) sme konstantu s nazvom dph
-        final double inflacia = 0.10; // vytvorili sme konstantu s nazvom inflacia
 
         // dph = 0.20f;
         System.out.println("Hodnota DPH je " + dph);
