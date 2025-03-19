@@ -7,6 +7,10 @@ import java.util.List;
 
 public class ArrayListMain {
     public static void main(String[] args) {
+
+        double a = 3.5;
+        int celeCislo = 8;
+
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
@@ -54,7 +58,9 @@ public class ArrayListMain {
         myNumbers.add(150);
         myNumbers.add(20);
         myNumbers.add(25);
-        Collections.sort(myNumbers);
+        Collections.sort(myNumbers); // Zoradi cislo od najmensieho po najvacsie
+
+        // Vypise vsetky cisla z ArrayList, foreach
         for (int number : myNumbers) {
             System.out.println(number);
         }
