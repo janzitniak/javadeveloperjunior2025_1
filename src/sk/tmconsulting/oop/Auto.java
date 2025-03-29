@@ -1,5 +1,5 @@
 package sk.tmconsulting.oop;
-//TODO Rozdel triedu Auto na: Auto a VyrobaAut. Zhodnotenie: 20:00
+
 public class Auto {
     // Premenné triedy
     String znacka;
